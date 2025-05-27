@@ -1,0 +1,74 @@
+.custom-logo img {
+    width: 190px; /* Ajusta el tamaño base */
+    height: auto;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.title{
+
+    color: #007BFF;
+    text-shadow: 2px 2px 5px rgba(185, 182, 182, 0.867), -2px -2px 5px rgba(155, 153, 153, 0.867);
+    font-family: sans-serif;
+}
+
+.title1{
+
+    font-size: 25px;
+}
+
+.banner-publicidad {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  background-color: #00d1b2; /* is-primary */
+  text-align: center;
+}
+
+.card-content:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer; /* Para que se note que es interactivo */
+}
+
+footer {
+  background-color: #c9d2d0;
+  color: #31231e;
+}
+
+    @media (max-width: 768px) {
+      .highlighted-card {
+        border: 6px solid #ff6f61; /* Color de borde llamativo */
+        box-shadow: 0 4px 12px rgba(14, 15, 14, 0.1); /* Sombra para resaltar */
+        width: 100%; /* Aumenta el ancho de la tarjeta */
+        margin: 0 auto; /* Centra la tarjeta */
+      }
+    
+      .highlighted-card .card-image img {
+        height: 230px; /* Ajustar la altura de la imagen en móviles */
+      }
+    
+      .highlighted-card .card-content {
+        padding: 1.5rem;
+         /* Añade más espacio dentro de la tarjeta */
+      }
+    }
+
