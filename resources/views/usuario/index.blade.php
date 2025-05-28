@@ -37,7 +37,7 @@
         registrarse
     </a>
 
-    <a href="{{ url('home/index') }}" class="button is-primary is-small">
+    <a href="{{ route('index') }}" class="button is-primary is-small">
         Inicio
     </a>
     
